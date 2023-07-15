@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Huawei/Desktop/PCS2023_Exercises/Projects/build-Delaunay-Desktop-Debug/delaunay_test[1]_tests.cmake")
+  include("C:/Users/Huawei/Desktop/PCS2023_Exercises/Projects/build-Delaunay-Desktop-Debug/delaunay_test[1]_tests.cmake")
+else()
+  add_test(delaunay_test_NOT_BUILT delaunay_test_NOT_BUILT)
+endif()
